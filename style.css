@@ -259,7 +259,7 @@ section {
 .box {
   width: calc((100% / var(--childs)));
   box-sizing: border-box;
-  min-width: 200px;
+  min-width: 300px;
   height: 230px;
   cursor: pointer;
   border-radius: 5px;
@@ -272,7 +272,7 @@ section {
 }
 
 .box:hover {
-  width: calc((100% / (var(--childs) - 2)));
+  width: calc((100% / (var(--childs) - 3)));
 }
 
 section:has(.box:hover) .box:not(:hover) {
@@ -298,10 +298,6 @@ section:has(.box:hover) .box:not(:hover) {
 .box-5 {
     background-image: url(./assets/svg/ImagePlaceholder.svg);
 }
-
-.box-6 {
-    background-image: url(./assets/svg/ImagePlaceholder.svg);
-  }
 
 
 
