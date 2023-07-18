@@ -1,40 +1,40 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700;1,900&display=swap');
+
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+}
   
-  body {
-    background: linear-gradient(180deg, rgba(255, 58, 200, 0.17) 0%, rgba(231, 231, 231, 0.00) 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  .waviy {
-    position: relative;
-    -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(0,0,0,.2));
-  }
-  .waviy span {
-    position: relative;
-    display: inline-block;
-    font-size: 40px;
-    color: #280D4A;
-    font-weight: 500;
-    animation: waviy 1.5s 2;
-    animation-delay: calc(.1s * var(--i))
-  }
-  @keyframes waviy {
-    0%,40%,100% {
-      transform: translateY(0)
-    }
-    20% {
-      transform: translateY(-20px)
-    }
-  }
+.wrapper {
+  background: linear-gradient(180deg, rgba(255, 58, 200, 0.17) 0%, rgba(231, 231, 231, 0.00) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(61, 6, 45) ;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  gap: 40px;
+}
 
-  @media(max-width:500px){
-    .waviy span{
-        font-size: 25px;
-    }
+.wrapper img{
+  max-width: 100%;
+  max-height: 400px;
+}
+
+
+@media(max-width:400px)
+{
+  .wrapper{
+    font-size: 10px;
   }
+}
+
+
+
+
+
