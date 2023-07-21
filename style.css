@@ -57,8 +57,7 @@ a{
 .navlinks li{
     list-style-type: none;
     background: transparent;
-    border: .6px solid transparent;
-    padding: 5px 10px;
+    padding: 8px 12px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -153,10 +152,9 @@ a{
 
 .card{
     width: 300px;
-    max-height: 250px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     gap: 20px;
     text-align: center;
@@ -168,6 +166,13 @@ a{
     font-size: 16px;
     font-weight: 400;
     color: #280D4A;
+}
+
+.card-grp{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .icon-img{
@@ -240,10 +245,27 @@ a{
     height: 60px;
     background-color: #6c256d0d;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.card-i svg{
+    width: 30px;
+    height: 30px;
+    fill: #280D4A;
+}
+
+#target{
+    width: 40px;
+    height: 35px;
+}
 .card-txt{
-    max-width: 400px;
+    max-width: 90%;
+    text-align: justify;
+    color: #000000bb;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 
@@ -276,7 +298,7 @@ section {
   background-position: center center;
   transition: width 400ms 60ms ease-in-out;
 
-  box-shadow: 2px 2px 15px #6c256d0d;
+  box-shadow: 2px 2px 15px #0c020c22;
 }
 
 .box:hover {
@@ -288,23 +310,23 @@ section:has(.box:hover) .box:not(:hover) {
 }
 
 .box-1 {
-  background-image: url(./assets/svg/ImagePlaceholder.svg);
+  background-image: url(./assets/img01.jpeg);
 }
 
 .box-2 {
-    background-image: url(./assets/svg/ImagePlaceholder.svg);
+    background-image: url(./assets/img02.jpeg);
 }
 
 .box-3 {
-    background-image: url(./assets/svg/ImagePlaceholder.svg);
+    background-image: url(./assets/img01.jpeg);
 }
 
 .box-4 {
-    background-image: url(./assets/svg/ImagePlaceholder.svg);
+    background-image: url(./assets/img01.jpeg);
 }
 
 .box-5 {
-    background-image: url(./assets/svg/ImagePlaceholder.svg);
+    background-image: url(./assets/img01.jpeg);
 }
 
 
@@ -387,13 +409,12 @@ section:has(.box:hover) .box:not(:hover) {
 }
 
 .social-i{
-    width: 40px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 1px solid #42424276;
+    /* border: 1px solid #42424276; */
+    cursor: pointer;
 }
 
 .build{
