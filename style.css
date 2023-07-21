@@ -527,13 +527,17 @@ section:has(.box:hover) .box:not(:hover) {
 
 
 @media(max-width:800px){
+    .nav{
+        position:fixed;
+        right: 0;
+    }
     .navlinks{
         display: block;
-        position: absolute;
+        position:fixed;
         right: 0;
         top: 64px;
         z-index: 10;
-        width: 240px;
+        width: 100%;
         background: #ffffff67;
         backdrop-filter: blur(5px);
         height: 100%;
