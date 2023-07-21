@@ -528,7 +528,8 @@ section:has(.box:hover) .box:not(:hover) {
 
 @media(max-width:800px){
     .logo img{
-        width: 100px;
+        width: 120px;
+        transform: translateX(-5px);
     }
     .nav{
         position: sticky;
