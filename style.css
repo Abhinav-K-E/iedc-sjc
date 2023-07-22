@@ -34,6 +34,8 @@
     align-items: center;
     justify-content: space-between;
     background: #fff;
+    backface-visibility: hidden;
+    z-index: 20;
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
@@ -166,6 +168,10 @@ a{
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.064);
     padding: 10px;
     border-radius: 10px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .head-sm{
