@@ -239,6 +239,7 @@ a{
     background: url(./assets/new.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 400px;
 }
 
 .grid02{
@@ -611,8 +612,9 @@ section:has(.box:hover) .box:not(:hover) {
         grid-template-columns: 1fr;
     }
     .grid01{
-        height: 250px;
+        height: 350px;
         width: 100%;
+        background-size: 360px;
     }
 
     .hero{
@@ -652,6 +654,11 @@ section:has(.box:hover) .box:not(:hover) {
         color: #000000bb;
         font-size: 15px;
         line-height: 1.6;
+    }
+    .grid01{
+        height: 300px;
+        width: 100%;
+        background-size: 280px;
     }
     
 }
