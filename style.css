@@ -127,6 +127,7 @@ a{
     border: 2px solid var(--main-txt);
     color: var(--main-txt);
     background: transparent;
+    transform: scale(.95);
 }
 
 .btn:hover svg{
