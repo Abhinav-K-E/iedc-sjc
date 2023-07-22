@@ -180,6 +180,7 @@ a{
     gap: 20px;
     font-size: 14px;
     line-height: 1.5;
+    color: #000000bb;
 }
 
 .icon-img{
@@ -223,7 +224,7 @@ a{
     height: 100%;
     /* background-color: #6c256d0d; */
     border-radius: 10px;
-    background: url(./assets/team.png);
+    background: url(./assets/new.png);
     background-repeat: no-repeat;
     background-position: center;
 }
