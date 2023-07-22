@@ -170,8 +170,12 @@ a{
     border-radius: 10px;
 
     opacity: 0;
-    transform: translateY(20px);
+    /* transform: translateY(20px); */
     transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card.in-view {
+    opacity: 1;
 }
 
 .head-sm{
