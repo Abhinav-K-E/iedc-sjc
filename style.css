@@ -443,6 +443,7 @@ section:has(.box:hover) .box:not(:hover) {
     cursor: pointer;
 }
 
+
 .build{
     color: #424242d3;
 }
