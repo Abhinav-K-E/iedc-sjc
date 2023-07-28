@@ -293,7 +293,7 @@ a{
 }
 
 
-/*image gallary*/
+/*===========image gallary==============*/
 
 .image-gallary{
     padding: 40px;
@@ -356,6 +356,7 @@ section:has(.box:hover) .box:not(:hover) {
 
 
 /*======= contact ========*/
+
 .contact-sec{
     width: 100%;
     padding: 40px;
@@ -446,9 +447,10 @@ section:has(.box:hover) .box:not(:hover) {
 
 .build{
     color: #424242d3;
+    font-size: 14px;
+    line-height: 1.4rem;
+    font-weight: 400;
 }
-
-
 
 
 
@@ -513,10 +515,10 @@ section:has(.box:hover) .box:not(:hover) {
     --rotate-bar-one: 45deg;
     --rotate-bar-three: -45deg;
   }
-  /* FIN ICON-MENU */
   
 
 /*================= brake points ==============*/
+
 @media(max-width:1120px){
     .head-txt{
         font-size: 40px;
